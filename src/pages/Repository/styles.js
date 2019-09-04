@@ -71,6 +71,7 @@ export const IssueList = styled.ul`
 
       strong {
         font-size: 16px;
+        word-break: break-all;
 
         a {
           text-decoration: none;
@@ -79,6 +80,17 @@ export const IssueList = styled.ul`
           &:hover {
             color: #7159c1;
           }
+        }
+
+        span {
+          background: #eee;
+          color: #333;
+          border-radius: 2px;
+          font-size: 12px;
+          font-weight: 600;
+          height: 20px;
+          padding: 3px 4px;
+          margin-left: 10px;
         }
       }
 
